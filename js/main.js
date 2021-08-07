@@ -31,17 +31,17 @@
             document.querySelector("#preloader").style.display = "none";
         }
     })
-    .add({
-        targets: '.s-header',
-        translateY: [-100, 0],
-        opacity: [0, 1]
-    }, '-=200')
-    .add({
-        targets: ['.s-intro__text', '.s-intro__about'],
-        translateY: [100, 0],
-        opacity: [0, 1],
-        delay: anime.stagger(400)
-    })
+    // .add({
+    //     targets: '.s-header',
+    //     translateY: [-100, 0],
+    //     opacity: [0, 1]
+    // }, '-=200')
+    // .add({
+    //     targets: ['.s-intro__text', '.s-intro__about'],
+    //     translateY: [100, 0],
+    //     opacity: [0, 1],
+    //     delay: anime.stagger(400)
+    // })
     .add({
         targets: '.s-intro__bg',
         opacity: [0, 1],
