@@ -1007,11 +1007,12 @@ textarea {
     }
 
     .ss-copyright {
-        display: none;
+        display: flex;
     }
 
     .ss-copyright-mobile {
-        display: flex;
+        /* display: flex; */
+        display: none;
         background-color: #fff;
         justify-content: center;
         align-items: center;
@@ -4506,7 +4507,7 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .ss-copyright {
     /* margin-right : 5.2rem; */
-    margin-right: 150px;
+    margin-left: 15px;
     line-height: var(--vspace-0_875);
     color: var(--color-text-light);
 }
