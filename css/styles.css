@@ -819,7 +819,8 @@ textarea {
 
 .block-lg-one-third > .column {
   flex: none;
-  width: 16.66667%;
+  /* width: 16.66667%; */
+  width: 20%;
 }
 
 .block-lg-one-half > .column {
@@ -3378,6 +3379,9 @@ background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(255,255,255,1) 50%, rg
   }
 }
 @media screen and (max-width: 900px) {
+  .bttt {
+    display: none;
+  }
   .ab2 {
     margin-top: 50px;
   }
@@ -3452,8 +3456,10 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: #fff;
+    /* color: #fff; */
     margin-bottom: -2px;
+    font-family: 'Raleway-Regular';
+    color: #606060;
   }
   .fig {
     font-size: 29px;
@@ -3503,7 +3509,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
     transform-origin: center top;
     padding: var(--vspace-2) 3.2rem var(--vspace-2);
     /* background-color: var(--color-body); */
-    background-color: #000;
+    background-color: #181818;
     /* border-bottom    : 1px solid var(--color-border); */
     /* box-shadow: var(--box-shadow); */
   }
@@ -3928,8 +3934,9 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
     width: 350px;
   }
   .s-intro__text {
-    letter-spacing: 1px;
-    font-size: 72px;
+    letter-spacing: 4px;
+    font-size: 70px;
+    line-height: 60px;
   }
 
   .s-intro__top-block {
@@ -3985,7 +3992,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
     margin-bottom: var(--vspace-1_25);
   }
   .s-intro__text {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 @media screen and (max-width: 550px) { 
@@ -4000,6 +4007,10 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
 @media only screen and (min-width: 400px) and (max-width: 450px) { 
   .s-intro__headline {
     font-size:12px;
+    margin-bottom: 4px;
+}
+.s-intro__text {
+  font-size: 50px;
 }
 }
 @media screen and (max-width: 400px) {
@@ -4020,8 +4031,9 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%, r
     width: 300px;
   }
   .s-intro__text {
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     font-size: 45px;
+    line-height: 50px;
   }
   .s-intro__headline {
     font-size: 10px;
