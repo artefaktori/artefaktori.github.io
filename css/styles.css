@@ -3449,7 +3449,7 @@ img.u-pull-left {
 
   .followig {
     font-size: 20px;
-    text-transform: none;
+    text-transform: none !important;
     letter-spacing: 1px;
     font-weight: 500;
     margin-left: 10px;
