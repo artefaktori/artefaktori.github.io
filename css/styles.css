@@ -3747,6 +3747,7 @@ img.u-pull-left {
   background-size: cover;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -5484,7 +5485,7 @@ img.u-pull-left {
   /* margin-bottom: 100px; */
   /* border-right: 2px solid black;
   border-left: 2px solid black; */
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -5546,7 +5547,7 @@ max-width: 500px;
   text-align: center;
   padding: 0;
   margin: 0;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .section-title-box {
@@ -5659,4 +5660,26 @@ max-width: 500px;
     opacity: 0;
     transform: translateY(20px);
   }
+}
+.pt-title {
+  margin: 0;
+  text-align: center !important;
+}
+.pt-title span {
+  font-family: 'Raleway-Black', sans-serif;
+}
+#services {
+  /* background-image: url("../images/intro-bg2.jpg"); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#works {
+  /* background-image: url("../images/lightpaperfibers.png");
+  background-repeat: repeat; */
+  margin-top: 50px;
+}
+
+.arrow {
+  width: 35px;
 }
