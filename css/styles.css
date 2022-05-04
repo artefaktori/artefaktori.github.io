@@ -5727,9 +5727,7 @@ max-width: 500px;
   .swiper {
     margin-bottom: 10px;
   }
-  .guide {
-    margin-top: 20px;
-  }
+  .
   .section-title-box {
     padding-bottom: 25px;
   }
@@ -5875,5 +5873,11 @@ body {
 @media screen and (max-width: 800px) {
   .pt-title {
     text-align: center !important;
+  }
+  .guide {
+    margin-top: 15px;
+  }
+  .section-title-box {
+      padding-bottom: 10px;
   }
 }
