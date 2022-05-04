@@ -5889,3 +5889,9 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 640px) {
+  .swiper-slide img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
