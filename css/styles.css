@@ -3324,7 +3324,8 @@ img.u-pull-left {
 
 .button_text_container {
   position: relative;
-  z-index: 10000;
+  /* z-index: 10000; */
+  z-index: 99;
   font-family: 'Oswald-Bold', sans-serif;
   text-transform: uppercase;
   font-size: 25px;
