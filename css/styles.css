@@ -4363,15 +4363,15 @@ img.u-pull-left {
 }
 
 .service-main-title {
-  color: #383838 !important;
+  color: #060606 !important;
 }
 
 .service-title {
-  color: #383838 !important;
+  color: #060606 !important;
 }
 
 .service-text p {
-  color: #383838;
+  color: #060606;
 }
 
 .tags {
@@ -4381,8 +4381,8 @@ img.u-pull-left {
 
 .tag {
   display: flex;
-  background-color: #38383812;
-  color: #383838;
+  background-color: #06060612;
+  color: #060606;
   padding: 0 13px;
   font-size: 12px;
   font-weight: bold;
@@ -4395,7 +4395,7 @@ img.u-pull-left {
 }
 
 .tag:hover {
-  color: #383838;
+  color: #060606;
 }
 
 /* -------------------------------------------------------------------
@@ -4598,7 +4598,6 @@ img.u-pull-left {
   vertical-align: bottom;
   margin-bottom: 0;
   transition: all, 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
-  filter: brightness(90%);
 }
 
 /* portfolio info
@@ -4674,30 +4673,32 @@ img.u-pull-left {
 /* on hover
  */
 .folio-item:hover .folio-item__thumb img {
-  transform: scale(1.04);
-  filter: brightness(100%);
+  /* transform: scale(1.04); */
+  /* filter: brightness(80%);
+  transition: all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1); */
+  /* transform: scale(1); */
 }
 
 /* 
 .folio-item:hover .folio-item__thumb a::before {
-  opacity: 1;
+  opacity: 80%;
   visibility: visible;
 }
 
 .folio-item:hover .folio-item__thumb a::after {
-  opacity: 1;
+  opacity: 80%;
   visibility: visible;
   transform: scale(1);
 }
 
 .folio-item:hover .folio-item__info {
-  opacity: 1;
+  opacity: 80%;
   visibility: visible;
   transform: translateY(0);
 }
 
 .folio-item:hover .folio-item__project-link {
-  opacity: 1;
+  opacity: 80%;
   visibility: visible;
   transform: translateX(0);
 } */
@@ -4993,20 +4994,20 @@ img.u-pull-left {
 .about-h1 {
   margin-bottom: 20px;
   margin-top: 0;
-  color: #383838;
+  color: #060606;
   font-family: "Oswald-Bold", "Raleway-Black", sans-serif;
   font-size: 50px;
   letter-spacing: -1px;
 }
 
 .about-h1:hover {
-  color: #383838;
+  color: #060606;
 }
 
 .about-h4 {
   margin-top: 5px;
   /* margin-bottom: 50px; */
-  color: #383838;
+  color: #060606;
 }
 
 .a1 {
@@ -5015,7 +5016,7 @@ img.u-pull-left {
 
 .a1 p {
   text-align: left;
-  color: #383838;
+  color: #060606;
 }
 
 .a2 {
@@ -5024,7 +5025,7 @@ img.u-pull-left {
 
 .a2 p {
   text-align: right;
-  color: #383838;
+  color: #060606;
 }
 
 .designer-photo-wrapper-primary {
@@ -5188,7 +5189,7 @@ img.u-pull-left {
   cursor: pointer;
   transition: ease-in 0.1s;
   background-color: #fc5530;
-  color: #383838;
+  color: #060606;
 }
 
 .footer-social:focus {
@@ -5808,7 +5809,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
 .headline-holder {
   display: flex;
   flex-direction: column;
-  /* background-color: #383838; */
+  /* background-color: #060606; */
   display: flex;
   justify-content: center;
   align-items: center;
