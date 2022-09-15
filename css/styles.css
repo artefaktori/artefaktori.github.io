@@ -5422,18 +5422,18 @@ img.u-pull-left {
 }
 
 .gap0 {
-  height: 150px;
-  margin-top: -150px;
+  height: 200px;
+  margin-top: -200px;
   width: 100%;
   display: flex;
-  background: linear-gradient(360deg, #060606 29.4%, rgba(6, 6, 6, 0) 100%);
+  background: linear-gradient(360deg, #000000 29.4%, rgba(0, 0, 0, 0) 100%);
 }
 
 .gap1 {
   height: 80px;
   width: 100%;
   display: flex;
-  background-color: #060606;
+  background-color: #000;
   /* background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
 }
@@ -5448,7 +5448,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
   height: 70px;
   width: 100%;
   display: flex;
-  background-color: #060606;
+  background-color: #000;
   margin-top: -1px;
 }
 
@@ -5758,7 +5758,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: #060606;
+  background-color: #000;
 }
 
 #works {
@@ -5778,7 +5778,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
 
   .swiper {
     margin-bottom: 10px;
-    background-color: #060606;
+    background-color: #000;
   }
 
   . .section-title-box {
@@ -6040,4 +6040,7 @@ body {
     height: 100%;
     border-bottom: 1px solid #ffffff14;
   }
+}
+#intro {
+  box-shadow: inset 0 100px 200px #000;
 }
