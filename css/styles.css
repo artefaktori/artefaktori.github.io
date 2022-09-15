@@ -3093,7 +3093,12 @@ img.u-pull-left {
 }
 
 .logo__artefaktori {
-  margin-left: 15px;
+  margin-left: 0px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -13.5px;
 }
 
 .s-header__logo img {
@@ -3389,6 +3394,9 @@ img.u-pull-left {
   position: absolute;
   top: 0;
   right: 0.8rem;
+}
+.s-header__menu-toggle {
+margin-right: -5px;
 }
 
 .s-header__menu-toggle span {
@@ -5952,7 +5960,16 @@ body {
     background-image: url("../images/mob22.png");
   }
 }
-
+@media screen and (min-width: 913px) {
+.logo__artefaktori {
+  display: none;
+}
+}
+@media screen and (max-width: 912px) {
+  .logo_mark {
+   display: none;
+  }
+  }
 @media screen and (max-width: 900px) {
   .s-contact {
     background-image: url("../images/bg-footer-mobile.png");
