@@ -1305,7 +1305,7 @@ textarea {
   }
 
   .product-types-headline {
-    font-size: 15px !important;
+    font-size: 13px !important;
   }
 
   .stack-on-550,
@@ -4445,7 +4445,7 @@ img.u-pull-left {
   }
 
   .product-types-headline {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   .service-item {
@@ -4464,7 +4464,7 @@ img.u-pull-left {
   }
 
   .product-types-headline {
-    font-size: 15px !important;
+    font-size: 13px !important;
     margin-top: 0 !important;
   }
 
@@ -6044,7 +6044,9 @@ body {
     height: 100%;
     /* border-bottom: 1px solid #ffffff14; */
   }
+  #intro {
+    /* box-shadow: inset 0 100px 200px #000; */
+    border-bottom: 1px solid #ffffff14;
+  }
 }
-#intro {
-  /* box-shadow: inset 0 100px 200px #000; */
-}
+
