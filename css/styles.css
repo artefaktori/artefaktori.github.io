@@ -3658,7 +3658,7 @@ margin-right: -5px;
     transform-origin: center top;
     padding: var(--vspace-2) 3.2rem var(--vspace-2);
     /* background-color: var(--color-body); */
-    background-color: #000000;
+    background-color: #080808;
     /* border-bottom    : 1px solid var(--color-border); */
     /* box-shadow: var(--box-shadow); */
   }
@@ -3743,7 +3743,7 @@ margin-right: -5px;
     padding-top: 40px;
     /* border-top: 1px solid #ffffff12; */
     padding: 0;
-    height: 100vh;
+    height: 60vh;
   }
 
   .s-header__nav-wrap {
@@ -6025,6 +6025,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .s-header__nav ul {
-    height: 85%;
+    height: 100%;
+    border-bottom: 1px solid #ffffff14;
 }
 }
