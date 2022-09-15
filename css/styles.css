@@ -3060,7 +3060,7 @@ img.u-pull-left {
   position: fixed;
   top: 0;
   left: 0;
-  border-bottom: 1px solid #ffffff14;
+  /* border-bottom: 1px solid #ffffff14; */
 
 }
 
@@ -6038,9 +6038,9 @@ body {
 @media screen and (max-width: 900px) {
   .s-header__nav ul {
     height: 100%;
-    border-bottom: 1px solid #ffffff14;
+    /* border-bottom: 1px solid #ffffff14; */
   }
 }
 #intro {
-  box-shadow: inset 0 100px 200px #000;
+  /* box-shadow: inset 0 100px 200px #000; */
 }
