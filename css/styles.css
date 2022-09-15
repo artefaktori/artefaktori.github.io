@@ -5421,13 +5421,13 @@ img.u-pull-left {
   }
 }
 
-.gap0 {
+/* .gap0 {
   height: 150px;
   margin-top: -150px;
   width: 100%;
   display: flex;
   background: linear-gradient(360deg, #000000 29.4%, rgba(0, 0, 0, 0) 100%);
-}
+} */
 
 .gap1 {
   height: 80px;
