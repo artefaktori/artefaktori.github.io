@@ -3660,7 +3660,7 @@ img.u-pull-left {
     transform-origin: center top;
     padding: var(--vspace-2) 3.2rem var(--vspace-2);
     /* background-color: var(--color-body); */
-    background-color: #080808;
+    background-color: #000;
     /* border-bottom    : 1px solid var(--color-border); */
     /* box-shadow: var(--box-shadow); */
   }
@@ -5422,8 +5422,8 @@ img.u-pull-left {
 }
 
 .gap0 {
-  height: 200px;
-  margin-top: -200px;
+  height: 150px;
+  margin-top: -150px;
   width: 100%;
   display: flex;
   background: linear-gradient(360deg, #000000 29.4%, rgba(0, 0, 0, 0) 100%);
