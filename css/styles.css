@@ -3060,6 +3060,8 @@ img.u-pull-left {
   position: fixed;
   top: 0;
   left: 0;
+  border-bottom: 1px solid #ffffff14;
+
 }
 
 .s-header__block {
@@ -3582,7 +3584,8 @@ margin-right: -5px;
   }
 
   .menu__item-details {
-    display: unset;
+    /* display: unset; */
+    display: none;
     color: #606060;
   }
 
@@ -3638,6 +3641,7 @@ margin-right: -5px;
     background-color: #000;
     /* border-bottom    : 1px solid var(--color-border); */
     /* box-shadow: var(--box-shadow); */
+    border-bottom: 1px solid #ffffff14;
   }
 
   .s-header__logo {
@@ -3677,7 +3681,7 @@ margin-right: -5px;
     text-transform: none;
     letter-spacing: 0;
     padding: var(--vspace-0_375) 0;
-    color: white;
+    color: rgba(255, 255, 255, 0.444);
     display: flex;
     padding: 20px 30px;
   }
@@ -3689,9 +3693,10 @@ margin-right: -5px;
   }
 
   .s-header__nav .current a {
-    background-color: #101010;
+    /* background-color: #0c0c0cd9; */
+    background: transparent;
     /* color: var(--color-1); */
-    color: rgb(255, 255, 255);
+    color: #fff;
     /* color: #fd8b73; */
 
   }
@@ -3702,6 +3707,10 @@ margin-right: -5px;
     text-align: left;
     margin: 0;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .s-header__nav ul li {
@@ -3733,6 +3742,7 @@ margin-right: -5px;
     padding-top: 40px;
     /* border-top: 1px solid #ffffff12; */
     padding: 0;
+    height: 100vh;
   }
 
   .s-header__nav-wrap {
@@ -3747,7 +3757,9 @@ margin-right: -5px;
     visibility: visible;
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
     transition-delay: 0.4s;
-    padding-top: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 100%;
   }
 
   .about-box:first-child {
@@ -5120,6 +5132,7 @@ margin-right: -5px;
   /* background-color: #101112; */
   background-color: #000;
   /* background-image: url('../images/intro-footer.jpg'); */
+  border-top: 1px solid #ffffff14;
 }
 
 .s-footer h4 {
@@ -5137,6 +5150,7 @@ margin-right: -5px;
   justify-content: space-between;
   align-items: center;
   height: 50px;
+  /* box-shadow: 0 0 82px 0px #1a1a1a; */
 }
 
 .s-footer__block {
@@ -5407,12 +5421,19 @@ margin-right: -5px;
     width: var(--vspace-1_25);
   }
 }
+.gap0 {
+  height: 150px;
+  margin-top: -150px;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(360deg, #060606 29.4%, rgba(6, 6, 6, 0) 100%);  
+}
 
 .gap1 {
   height: 80px;
   width: 100%;
   display: flex;
-  background-color: #000000;
+  background-color: #060606;
   /* background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
 }
@@ -5427,7 +5448,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
   height: 70px;
   width: 100%;
   display: flex;
-  background-color: #000000;
+  background-color: #060606;
   margin-top: -1px;
 }
 
@@ -5536,7 +5557,6 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
   border-left: 2px solid black; */
   margin-top: 0px;
   margin-bottom: 115px;
-  background-color: #000000;
 }
 
 .swiper-slide {
@@ -5738,7 +5758,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: #000000;
+  background-color: #060606;
 }
 
 #works {
@@ -5758,6 +5778,7 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(18,18,18,1) 100%); */
 
   .swiper {
     margin-bottom: 10px;
+    background-color: #060606;
   }
 
   . .section-title-box {
@@ -5970,6 +5991,9 @@ body {
   .logo_mark {
    display: none !important;
   }
+  .contact_li {
+    margin-right: 0px;
+  }
   }
   @media screen and (min-width: 901px) {
     .logo__artefaktori {
@@ -5998,3 +6022,8 @@ body {
   font-family: "Oswald-Bold";
 }
 
+@media screen and (max-width: 900px) {
+  .s-header__nav ul {
+    height: 85%;
+}
+}
