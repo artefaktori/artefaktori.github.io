@@ -3071,9 +3071,10 @@ img.u-pull-left {
 /* --------------------------------------------------------------------
  * ## logo
  * -------------------------------------------------------------------- */
- .logo{
+.logo {
   margin-left: 7px !important;
- }
+}
+
 .s-header__logo {
   z-index: 3;
   position: absolute;
@@ -3401,8 +3402,9 @@ img.u-pull-left {
   top: 0;
   right: 0.8rem;
 }
+
 .s-header__menu-toggle {
-margin-right: -5px;
+  margin-right: -5px;
 }
 
 .s-header__menu-toggle span {
@@ -3799,12 +3801,7 @@ margin-right: -5px;
   background-color: #000;
 }
 
-.s-contact {
-  background-image: url("../images/bg-footer.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
 
 /* --------------------------------------------------------------------
  * ## intro content
@@ -4677,6 +4674,7 @@ margin-right: -5px;
   transform: scale(1.04);
   filter: brightness(100%);
 }
+
 /* 
 .folio-item:hover .folio-item__thumb a::before {
   opacity: 1;
@@ -5422,12 +5420,13 @@ margin-right: -5px;
     width: var(--vspace-1_25);
   }
 }
+
 .gap0 {
   height: 150px;
   margin-top: -150px;
   width: 100%;
   display: flex;
-  background: linear-gradient(360deg, #060606 29.4%, rgba(6, 6, 6, 0) 100%);  
+  background: linear-gradient(360deg, #060606 29.4%, rgba(6, 6, 6, 0) 100%);
 }
 
 .gap1 {
@@ -5990,28 +5989,41 @@ body {
 
 @media screen and (max-width: 900px) {
   .logo_mark {
-   display: none !important;
+    display: none !important;
   }
+
   .contact_li {
     margin-right: 0px;
   }
+}
+
+@media screen and (min-width: 901px) {
+  .logo__artefaktori {
+    display: none !important;
   }
-  @media screen and (min-width: 901px) {
-    .logo__artefaktori {
-      display: none !important;
-    }
-    }
-@media screen and (max-width: 900px) {
+
   .s-contact {
-    background-image: url("../images/bg-footer-mobile.png");
+    background-image: url("../images/bg-footer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 }
 
-@media only screen and (max-width: 640px) and (max-height: 360px)  {
+@media screen and (max-width: 900px) {
+  .s-contact {
+    /* background-image: url("../images/bg-footer-mobile.png"); */
+    background-color: #060606 !important;
+  }
+
+}
+
+@media only screen and (max-width: 640px) and (max-height: 360px) {
   .s-intro {
     background-image: url("../images/mob640360.png");
   }
 }
+
 .bgimageswiper {
   background-color: rgba(190, 59, 59, 0.762);
   width: 200px;
@@ -6027,5 +6039,5 @@ body {
   .s-header__nav ul {
     height: 100%;
     border-bottom: 1px solid #ffffff14;
-}
+  }
 }
